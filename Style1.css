@@ -1,0 +1,22 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: darkblue;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+}
+.odd{
+    color: darkred;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+}
+.even{
+    color: darkgreen;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+}
