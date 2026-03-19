@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+    <head>
+        <title>Forms Page</title>
+    </head>
+    <body>
+        <h3>Forms</h3>
+        <hr>
+        <form action="submit_form.php" method="post" enctype="multipart/form-data"></form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="title">Title:</label><br>
+            
+            <label for="mr">Mr.</label>
+            <input type="radio" id="mr" name="title" value="Mr.">
+            <label for="mrs">Mrs.</label>
+            <input type="radio" id="mrs" name="title" value="Mrs.">
+            <label for="ms">PhD.</label>
+            <input type="radio" id="PhD" name="title" value="PhD."><br><br>
+        
+            <label for="birthdate">Birthdate:</label><br>
+            <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="example@gmail.com" name="email" required><br><br>
+
+            <label for="number">Phone Number:</label><br>
+            <input type="tel" id="number" placeholder="+254-123-456-789" name="number" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required minlength="8"><br><br>
+
+            <label for="payment">Payment Method:</label><br>
+            <select id="payment" name="payment">
+                <option value="credit_card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank_transfer">Bank Transfer</option>
+            </select><br><br>
+
+             <label for="file">Upload File:</label><br>
+            <input type="file" id="file" accept="image/jpeg,image/png,pdf" name="file"><br><br>
+
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+             <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit"><br><br>
+
+        </form>
+    </body>
+</html>

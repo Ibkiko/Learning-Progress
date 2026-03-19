@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.odd{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.even{
+    color: yellowgreen;
+    font-size: 20px;
+    text-align: center;
+}

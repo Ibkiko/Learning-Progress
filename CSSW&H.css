@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+  background-color: rgb(96, 96, 96);
+  height: 100vh;
+}
+.box{
+    border: 2px solid #000000;
+    padding: 25px;
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: azure;
+}
+
+.box2{
+    border: 2px solid #000000;
+    padding: 25px;
+    width: 50%;
+    float: right;
+    background-color: azure;
+}

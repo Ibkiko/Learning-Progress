@@ -1,0 +1,15 @@
+div{
+    background-color: rgb(255, 2, 2);
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+Span{
+    background-color: rgb(2, 146, 146);
+    width: 100px;
+    display: inline-block;
+    height: 100px;
+    display: inline-block;
+}
